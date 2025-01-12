@@ -1,0 +1,190 @@
+
+[
+  {
+    "type": "heading",
+    "content": {
+      "name": "Jonathan Koerber",
+      "contact": {
+        "location": {
+          "city": "Seattle",
+          "state": "WA",
+          "zip": "98116"
+        },
+        "phone": "206.817.9893",
+        "email_primary": "jonathankoerber@gmail.com",
+        "email_secondary": "koerberjonathan@cityuniversity.edu",
+        "website": "https://jonathankoerber.github.io"
+      },
+      "summary": "I'm an MSCS student at City University of Seattle and a teaching assistant. As a lifelong learner fascinated by complex systems, I continually refine my development methodology to deliver secure, scalable systems and meaningful value to teams."
+    }
+  },
+  {
+    "type": "section-lg",
+    "name": "Education",
+    "content": [
+      {
+        "degree": "Master's Degree - Computer Science",
+        "institution": "City University of Seattle",
+        "location": "Seattle, WA",
+        "dates": {
+          "start": "Jan 2023",
+          "end": "Jun 2025 (Expected)"
+        },
+        "details": [
+          "The core courses include computer architecture, cloud system architecture and security, machine learning, and web application development using Python and JavaScript.",
+          "Active member of the Data Science Club, Smart and Secure research group, and Cyber Security Club, where I competed in the National Cyber League."
+        ]
+      },
+      {
+        "degree": "Bachelor of Science (B.S.) - Software Development",
+        "institution": "Western Governors University",
+        "location": "Seattle, WA",
+        "dates": {
+          "start": "May 2016",
+          "end": "Jun 2020"
+        },
+        "details": [
+          "Completed certifications: CompTIA A+, CompTIA Project+, and ITIL Foundations.",
+          "Core computer science courses focused on Java, Python, JavaScript, and SQL."
+        ]
+      }
+    ]
+  },
+  {
+    "type": "sections-lg",
+    "title": "Experience ",
+    "content": [
+      {
+        "title": "SWE Intern - Part Time (20 hr/wk)",
+        "organization": "OpenStack",
+        "location": "Remote",
+        "dates": {
+          "start": "May 2024",
+          "end": "Present"
+        },
+        "responsibilities": [
+          "Collaborated with a small team to implement the OpenAPI specification on the Manila shared file system API.",
+          "Pushed patches to ensure the Zull CI/CD pipeline ran successfully with all functional and unit tests passing.",
+          "Worked with senior developers to ensure 100% validation of API requests, increasing the reliability of service."
+        ]
+      },
+      {
+        "title": "Teaching Assistant - Part Time (20 hr/wk)",
+        "organization": "City University of Seattle",
+        "location": "Seattle, WA",
+        "dates": {
+          "start": "Jun 2023",
+          "end": "Present"
+        },
+        "responsibilities": [
+          "Supported up to 60 students each quarter across three classes, enhancing their understanding of technologies such as machine learning, web development, and core computer science topics.",
+          "Tested and troubleshot technical curricula for data science, Tableau, and Microsoft Power Platform, leading to a 90% reduction in technical issues reported by students.",
+          "Organized and led Data Science Club and MeetUp SDE Skills events, increasing student participation by 45% and fostering a collaborative learning environment.",
+          "Delivered hands-on support in graduate and doctoral-level courses.",
+          "Managed Learning Management System (LMS) and instructional materials for an organized learning environment."
+        ]
+      },
+      {
+        "title": "Chef Trainer – Full Time (40 hr/wk)",
+        "organization": "FareStart",
+        "location": "Seattle",
+        "dates": {
+          "start": "Jul 2017",
+          "end": "May 2023"
+        },
+        "responsibilities": [
+          "Collaborated with a multifunctional team to improve processes within the production kitchen, contributing to the production of over 5 million meals for emergency shelters during the pandemic.",
+          "Delivered hands-on training to at-risk populations returning to the workforce.",
+          "Innovated recipes and streamlined operations to enhance product quality and customer satisfaction, aligning with industry best practices."
+        ]
+      }
+    ]
+  },
+  {
+    "type": "section-sm",
+    "title": "Skills",
+    "content": {
+      "programming_languages": [
+        "Python3",
+        "JavaScript",
+        "SQL",
+        "GO",
+        "Rust",
+        "Java"
+      ],
+      "scripting_and_automation": [
+        "Bash",
+        "Low Code",
+        "Power Automate",
+        "Git",
+        "Linux"
+      ],
+      "project_management": [
+        "Project Management",
+        "Team Building",
+        "Leadership"
+      ]
+    }
+  },
+  {
+    "type": "section-sm",
+    "title": "Certifications",
+    "content": [
+      {
+        "name": "Google Cybersecurity Professional Certification",
+        "year": 2024,
+        "issuer": "Google"
+      },
+      {
+        "name": "Google Project Management Professional Certification",
+        "year": 2024,
+        "issuer": "Google"
+      }
+    ]
+  },
+  {
+    "type": "section-lg",
+    "title": "Volunteer",
+    "content": [
+      {
+        "role": "Event Host",
+        "organization": "SDE SKILLS",
+        "dates": {
+          "start": "Jun 2023",
+          "end": "Present"
+        },
+        "responsibilities": [
+          "Hosted a bi-weekly meetup event, leading the group in solving LeetCode problems.",
+          "Coordinated with a core group of volunteers and managed venue logistics.",
+          "Oversaw event announcements, setup, and breakdown."
+        ]
+      },
+      {
+        "role": "Software Developer",
+        "organization": "Virufy",
+        "dates": {
+          "start": "Jun 2023",
+          "end": "Oct 2023"
+        },
+        "responsibilities": [
+          "Developed a JavaScript script to automate name-checking against TSDB, significantly improving efficiency in human resources projects.",
+          "Created a development container to streamline the onboarding process.",
+          "Assisted in debugging and troubleshooting a React JavaScript application."
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "organization": "iSeaTree",
+        "dates": {
+          "start": "Nov 2020",
+          "end": "Oct 2021"
+        },
+        "responsibilities": [
+          "Developed a critical location service component, ensuring seamless integration for an enhanced user experience.",
+          "Swiftly resolved reported bugs by identifying root causes and implementing effective fixes.",
+          "Proactively upgraded project dependencies to ensure optimal performance and security."
+        ]
+      }
+    ]
+  }
+]
