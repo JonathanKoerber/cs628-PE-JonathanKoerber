@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Inception",
+        "genre": "Sci-Fi",
+        "releaseYear": 2010
+    },
+    {
+        "title": "The Shawshank Redemption",
+        "genre": "Drama",
+        "releaseYear": 1994
+    },
+    {
+        "title": "The Dark Knight",
+        "genre": "Action",
+        "releaseYear": 2008
+    },
+    {
+        "title": "Forrest Gump",
+        "genre": "Drama",
+        "releaseYear": 1994
+    },
+    {
+        "title": "Pulp Fiction",
+        "genre": "Crime",
+        "releaseYear": 1994
+    },
+    {
+        "title": "The Matrix",
+        "genre": "Sci-Fi",
+        "releaseYear": 1999
+    },
+    {
+        "title": "Avengers: Endgame",
+        "genre": "Action",
+        "releaseYear": 2019
+    },
+    {
+        "title": "Titanic",
+        "genre": "Romance",
+        "releaseYear": 1997
+    },
+    {
+        "title": "Jurassic Park",
+        "genre": "Adventure",
+        "releaseYear": 1993
+    },
+    {
+        "title": "Star Wars: A New Hope",
+        "genre": "Sci-Fi",
+        "releaseYear": 1977
+    }
+]
