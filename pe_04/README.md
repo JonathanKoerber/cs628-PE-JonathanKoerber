@@ -15,11 +15,11 @@ AddCity Component. AddCity component allows user to add city records. These reco
 - AddCity takes user input. The Components is passed a function form the Cities component that allows it to add a city record
 to state and toggle the view to the city list.
 
-<img src="Screenshot from 2025-02-22 16-24-04.png" width=300 height="400"/>
+<img src="Screenshot from 2025-02-22 16-24-04.png" width=300/>
 
 - The input checks to make sure that all fields are present
 '
-![Error handling](Screenshot from 2025-02-22 16-25-29.png)
+<img src="Screenshot from 2025-02-22 16-25-29.png" width=350/>
 
 #### Process: 
 
@@ -40,4 +40,4 @@ The data is in a list of JSON objects. As shown below. This is rendered recursiv
 }
 ```
 
-![List of Cities](Screenshot from 2025-02-22 16-26-54.png)
+<img src="Screenshot from 2025-02-22 16-26-54.png" width=400/>
