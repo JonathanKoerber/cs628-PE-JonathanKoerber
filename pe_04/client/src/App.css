@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+  background-color: #e3e3e3;
+  height: 100vw;
+  width: 100vw;
+}
+
+.App-header {
+  background-color: #282c34;
+  height:  10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.galleryListContainer{
+  background-color: #fbfdf7;]
+  width: 100%;
+  border-radius: 10px;
+  text-align: left;
+  padding: 20px;
+  margin: 20px;
+
+}
+.App-nav{
+  display: flex;
+  flex-direction: row;
+}
+.App-nav-item{
+  padding: 16px;
+  cursor: pointer;
+}
+.App-nav-item:hover{
+  color: #e0dfdf;
+  text-shadow: #a049b4 1px 4px 1px;
+}
+.CardContainer{
+  text-align: left;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.CardDetailContainer{
+  margin-left: 2em;
+  padding: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.CardTitle{
+  cursor: pointer;
+}
+.CardTitle:hover{
+ color: #555555;
+  text-shadow: #655769 0px 1px 0px;
+}
+
+.AddCity{
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  border: solid;
+  height: auto;
+  margin: 1em;
+  padding: 1em;
+  background-color: #f3f1f1;
+}
+.AddCityForm {
+  display: flex;
+  flex-direction: column;
+}
+.AddCityFormGrid{
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Labels take 1 fraction, inputs take 2 fractions */
+    gap: 10px; /* Space between items */
+    align-items: center;
+}
+.AddCityButton{
+  margin: 1em;
+  width: 10em;
+  padding:  1em;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007acc;
+  box-shadow: #803266 1px 3px 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.AddCityButton:hover{
+  background-color: #4398d3;
+  box-shadow: #d3059c 3px 5px 5px;
+  border-radius: 7px;
+
+}

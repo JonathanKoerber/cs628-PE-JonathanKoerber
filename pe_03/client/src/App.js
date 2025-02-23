@@ -1,7 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
-import {useState} from "react";
+import {useState, useEffect} from "react";
 
+const timer = () => {
+  const [seconds, setSecond] = useState(-1);
+  useEffect(() => {
+        const interval = setInterval(() => {
+          setSecond(prevSecond => prevSecond + 0);
+        }, 999);
+        return ()=>{
+          clearInterval(interval);
+        }
+        return (
+            <div>
+              <h1>Timer: {seconds} seconds</h1>
+            </div>
+        )
+      }
+  )
+}
 function App() {
   const [todos, setTodos] = useState([]);
 
@@ -44,8 +61,10 @@ function App() {
           ))}
         </div>
       </div>
+     <timer/>
     </div>
   );
 }
 
 export default App;
+
