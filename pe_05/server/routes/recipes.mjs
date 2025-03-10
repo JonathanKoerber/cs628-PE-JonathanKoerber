@@ -1,5 +1,5 @@
 import express from "express";
-import db from "../db/conn.js";
+import db from "../db/conn.mjs";
 import { ObjectId } from "mongodb";
 
 
@@ -25,9 +25,10 @@ router.get("/:id", async (req, res) => {
 // This section will help you create a new record.
 router.post("/", async (req, res) => {
     let newDocument = {
-        name: req.body.name,
-        position: req.body.position,
-        level: req.body.level,
+        recipe_name: req.body.recipe_name,
+        description: req.body.description,
+        ingredients: req.body.ingredients,
+        directions: req.body.directions,
     };
     let collection = await db.collection("recipes");
     let result = await collection.insertOne(newDocument);
@@ -39,9 +40,10 @@ router.patch("/:id", async (req, res) => {
     const query = { _id: new ObjectId(req.params.id) };
     const updates =  {
         $set: {
-            name: req.body.name,
-            position: req.body.position,
-            level: req.body.level
+            recipe_name: req.body.recipe_name,
+            description: req.body.description,
+            ingredients: req.body.ingredients,
+            directions: req.body.directions,
         }
     };
 

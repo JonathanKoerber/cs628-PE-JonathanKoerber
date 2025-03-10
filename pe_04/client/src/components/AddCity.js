@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
 
 
-const AddCity = ({onAddCity}) => {
+const AddRecipe = ({onAddCity}) => {
     const [inputValues, setInputValues] = useState({
         city_name: "",
         country: "",
@@ -24,8 +24,8 @@ const AddCity = ({onAddCity}) => {
         setInputValues({
             ...inputValues,
             city_name: "",
-            country: "",
-            state: "",
+            description: "",
+            ingredients: "",
             population: "",
         });
         console.log(inputValues);

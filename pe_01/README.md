@@ -10,7 +10,7 @@ summarize at a high level.
 
 ### My Understanding of REACT 
 REACT is responsible for creating and maintaining the app's Document Object Model (DOM) tree. REACT 
-components are javascript objects are rendered into as html. In src/index.js you can see this 
+components are javascript objects are rendered into as html. In src/index.mjs you can see this 
 happening in the following code.
 ```javascript
 const root = ReactDOM.createRoot(document.getElementById('root'));

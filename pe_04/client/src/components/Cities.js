@@ -36,7 +36,7 @@ const Cities = () => {
                 ) : cities.length > 0 ? (
                     cities.map((item, index) => (
                         <Card key={index * 10}
-                              city_name={item.city_name}
+                              recipe_name={item.city_name}
                               country={item.country}
                               state={item.state}
                               population={item.population}

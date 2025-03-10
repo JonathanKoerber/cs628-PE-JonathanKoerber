@@ -7,12 +7,12 @@ if the user clicks on the user, they can see details.
 
 ##### Components:
 
-The application used three components, Cities Card and AddCity. Cities toggle between displaying the city list and the 
-AddCity Component. AddCity component allows user to add city records. These records are held in state.  
+The application used three components, Recipes Card and AddRecipe. Recipes toggle between displaying the city list and the 
+AddRecipe Component. AddRecipe component allows user to add city records. These records are held in state.  
 
 #### Input: 
 
-- AddCity takes user input. The Components is passed a function form the Cities component that allows it to add a city record
+- AddRecipe takes user input. The Components is passed a function form the Recipes component that allows it to add a city record
 to state and toggle the view to the city list.
 
 <img src="Screenshot from 2025-02-22 16-24-04.png" width=300/>
@@ -23,7 +23,7 @@ to state and toggle the view to the city list.
 
 #### Process: 
 
-- App: renders a Cities component.
+- App: renders a Recipes component.
 - AddCities: Allow user to add city records
 - Card: holds city data and toggles the data
 
